@@ -1,1 +1,45 @@
+/**
+* Hoja de Estilos - Tarea 2 - Tablas en HTML
+* @author: Estudiante Valerie Medrano.
+* @school: Centro Educativo Sor María Romero.
+* @date: 28/08/2022
+*/
 
+/**
+* Estilo del titulo
+* Texto al centro, fondo lila redondeado
+*/
+h1{
+    text-align: center;
+    background: #c4a1a1;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+/**
+* Estilo de la tabla
+* Tabla colapsada y centrada, tomando todo el ancho de la pagina
+* Con un margen superior de 5em
+*/
+table {
+    margin-top: 5em;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+/**
+* Estilo de las celdas de la tabla 
+* Alineacion al centro, borde solido de 1px y un relleno general de 8px
+*/
+td, th {
+    border: 1px solid #918989;
+    text-align: center;
+    padding: 8px;
+}
+
+/**
+* Estilo para variar de color entre las filas
+*/
+tr:nth-child(even) {
+    background-color: #ddd;
+}
